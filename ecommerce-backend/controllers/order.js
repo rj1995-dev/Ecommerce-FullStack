@@ -1,6 +1,6 @@
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(
-  "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"
+  ""
 );
 const { Order, CartItem } = require("../models/Order");
 const { errorHandler } = require("../helpers/dbErrorHandler");
